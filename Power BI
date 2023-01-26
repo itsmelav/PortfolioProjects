@@ -3,3 +3,12 @@
 => Worked for Maven Analytics Sales Team in understanding their core KPI's - Sales, Revenue, Profit and Returns.
 => To Analyse performance and trending at product level and use the data to understand the companies high value customers.
 
+Process of Workflow:
+
+•	To connect and transform the raw data from those CSV files,
+•	Use those tables to build a relational data model to blend information together,
+•	Create new calculated columns and DAX measures using Power Query.
+•	And finally, design an interactive report to actually analyse and visualize all of this data.
+
+
+
