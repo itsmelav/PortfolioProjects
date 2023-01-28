@@ -10,6 +10,38 @@ Process of Workflow:
 •	Create new calculated columns and DAX measures using Power Query.
 •	And finally, design an interactive report to actually analyse and visualize all of this data.
 
-<img width="609" alt="Overview Dashboard" src="https://user-images.githubusercontent.com/98869076/215103116-8650c740-7de5-47d8-a734-60d5a41e435a.PNG">
+Approach:
 
-image.png
+=> [GET DATA INTO POWER BI] Loading the .csv Input files into power BI. The input files comprised of 6 .CSV files namely,
+
+- Customer_Lookup Table - Details of customer name, birtdate, gender, email address etc.
+- Product_Lookup Table - Details of the product key, product name, model name, product cost etc.
+- Product Subcategory Table - High level subcategory information.
+- Product Category Table - Main 4 product categorisation of cycle products.
+- Territory_Lookup Table - Detials of region, country and continent of product sales.
+- Sales Table - Details of order quantity, foreign keys, retail price, revenue etc.
+- Returns Table - Details of return quantity and return date etc.
+
+=> [ ETL PROCESS - POWER QUERY ] Cleaning and Transforming the raw data into useful data.
+
+=> [ TABLE RELATIONSHIP CREATION AND DATA MODELING] Use those tables to build a relational data model to create Relationship Cardinality.
+
+- Tables are differentitated into two types as Dimension Tables and Fact Tables.
+  - Dimension tables in my project are Customer, Product,Product category, Product subcategory and Territory Tables.
+  - Fact Tables are Sales and Returns data Tables.
+ - My data model represented a snowflake schema.
+ 
+ => [DAX MEASURES AND CALCULATIONS] Create Data Analysis Expressions and Calculated Columns for better visualisation.
+ 
+ - Used functions and formulas like RELATED(), ALL(), CALCULATE(), FILTER(), ITERATOR functions like SUMX() and TIME INTELLIGENCE 
+ functions like DATEDIFF and DATEADD.
+ 
+ => [ DATA VISUALISATION ]  Use tools and techniques to extract useful insights from the data.
+ 
+ - Used viz. tools like Treemap, Stacked Bar chart, Matric Table, KPI Cards, Donut Charts, Line and Clustered column chart and Filled map.
+ - Created bookmarks for shifting from one dashboard pane to another.
+ 
+ 
+ 
+ 
+ 
