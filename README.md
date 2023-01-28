@@ -1,4 +1,4 @@
-# PortfolioProjects - ***************** POWER BI - HISTORICAL DATA ANALAYSIS OF A CYCLE MANUFACTURING COMPANY *********************
+***************** POWER BI - HISTORICAL DATA ANALAYSIS OF A CYCLE MANUFACTURING COMPANY *********************
 
 /* Overall Performance Dashboard */
 
